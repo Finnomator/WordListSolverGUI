@@ -44,7 +44,7 @@ namespace WordlistSolver
             button.Height = fontsize;
             button.Width = 70;
             //button.FontSize = fontsize;
-            button.Name = name.Replace(" ","_");
+            button.Name = name.Replace(" ","_").Replace("-","__");
             button.Click += handler;
             button.FontFamily = new FontFamily("Segoe Ui");
             button.BorderThickness = new Thickness(0, 0, 0, 0);
@@ -296,7 +296,7 @@ namespace WordlistSolver
 
         public void ClickCopyButton(object sender, EventArgs e)
         {
-            string wordtocopy = ((Button)sender).Name.Replace("_"," ");
+            string wordtocopy = ((Button)sender).Name.Replace("__", "-").Replace("_"," ");
             Clipboard.SetText(wordtocopy);
         }
     }
