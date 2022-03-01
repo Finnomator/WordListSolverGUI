@@ -38,13 +38,14 @@ namespace WordlistSolver
     {
         public Button button;
 
-        public MyButton(string text, int x, int y, int fontsize)
+        public MyButton(string text, int x, int y, int fontsize, RoutedEventHandler handler, string name)
         {
             button = new Button();
             button.Height = fontsize;
             button.Width = 70;
             //button.FontSize = fontsize;
-            button.Name = int.Parse(text.Split(' ')[1]).ToString();
+            button.Name = name.Replace(" ","_");
+            button.Click += handler;
             button.FontFamily = new FontFamily("Segoe Ui");
             button.BorderThickness = new Thickness(0, 0, 0, 0);
             button.Background = new SolidColorBrush(Color.FromRgb(179, 194, 242));
@@ -172,7 +173,7 @@ namespace WordlistSolver
                     MyLabel mylabel = new MyLabel((i + 1) + ". " + space + posible_words[i], x, y, fontsize);
                     LabelGrid.Children.Add(mylabel.label);
 
-                    MyButton copybutton = new MyButton("Copy " + (i + 1) + ".", 30, y, fontsize);
+                    MyButton copybutton = new MyButton("Copy " + (i + 1) + ".", 30, y, fontsize, ClickCopyButton, posible_words[i]);
 
                     LabelGrid.Children.Add(copybutton.button);
                 }
@@ -293,9 +294,10 @@ namespace WordlistSolver
             make_output();
         }
 
-        private void ClickCopyButton()
+        public void ClickCopyButton(object sender, EventArgs e)
         {
-
+            string wordtocopy = ((Button)sender).Name.Replace("_"," ");
+            Clipboard.SetText(wordtocopy);
         }
     }
 }

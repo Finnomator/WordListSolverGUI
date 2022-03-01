@@ -20,3 +20,7 @@ C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-win
 C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.pdb
 C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.genruntimeconfig.cache
 C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\ref\Word List Solver.dll
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\Release\net6.0-windows\Word List Solver.dll.manifest
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\Release\net6.0-windows\Word List Solver.application
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.dll.manifest
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.application

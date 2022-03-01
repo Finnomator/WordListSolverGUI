@@ -7,7 +7,7 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\Word List Solver_1_0_0_9\Word List Solver.dll.manifest" size="5173">
+    <dependentAssembly dependencyType="install" codebase="Word List Solver.dll.manifest" size="5173">
       <assemblyIdentity name="Word List Solver.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
