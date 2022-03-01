@@ -1,0 +1,22 @@
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\Release\net6.0-windows\Word List Solver.exe
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\Release\net6.0-windows\Word List Solver.deps.json
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\Release\net6.0-windows\Word List Solver.runtimeconfig.json
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\Release\net6.0-windows\Word List Solver.dll
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\Release\net6.0-windows\Word List Solver.pdb
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.csproj.AssemblyReference.cache
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\App.g.cs
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver_MarkupCompile.cache
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.g.resources
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word_List_Solver.Properties.Resources.resources
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.csproj.GenerateResource.cache
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.AssemblyInfoInputs.cache
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.AssemblyInfo.cs
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.csproj.CoreCompileInputs.cache
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.dll
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\refint\Word List Solver.dll
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.pdb
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\Word List Solver.genruntimeconfig.cache
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\obj\Release\net6.0-windows\ref\Word List Solver.dll

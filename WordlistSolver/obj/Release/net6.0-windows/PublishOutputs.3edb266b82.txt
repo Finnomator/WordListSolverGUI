@@ -1,0 +1,5 @@
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\publish\Word List Solver.exe
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\publish\Word List Solver.dll
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\publish\Word List Solver.deps.json
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\publish\Word List Solver.runtimeconfig.json
+C:\Users\finnd\source\repos\WordListSolver\WordlistSolver\bin\publish\Word List Solver.pdb
