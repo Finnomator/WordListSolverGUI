@@ -44,7 +44,7 @@ namespace WordlistSolver
             button.Height = fontsize;
             button.Width = 70;
             //button.FontSize = fontsize;
-            button.Name = name.Replace(" ","_").Replace("-","__");
+            button.Name = name.Replace(" ", "_").Replace("-", "__");
             button.Click += handler;
             button.FontFamily = new FontFamily("Segoe Ui");
             button.BorderThickness = new Thickness(0, 0, 0, 0);
@@ -74,11 +74,14 @@ namespace WordlistSolver
         void make_output()
         {
 
+            bool endless_word = WordInputTextBox.Text.StartsWith(":");
+
             if (!(bool)UseLabelsCheck.IsChecked)
             {
 
-                if (WordInputTextBox.Text.Length < 3)
+                if ((WordInputTextBox.Text.Length < 3 && !endless_word) || (WordInputTextBox.Text.Length < 2))
                 {
+
                     OutputTextBox.Text = "";
                     return;
                 }
@@ -87,11 +90,11 @@ namespace WordlistSolver
 
                 if (copy_num == -1)
                 {
-                    posible_words = wc.wordlist(WordInputTextBox.Text, !(bool)AttentionSpace.IsChecked);
+                    posible_words = wc.wordlist(WordInputTextBox.Text, endless_word, !(bool)AttentionSpace.IsChecked);
                 }
                 else
                 {
-                    posible_words = wc.wordlist(WordInputTextBox.Text.Replace(copy_num.ToString(), ""), !(bool)AttentionSpace.IsChecked);
+                    posible_words = wc.wordlist(WordInputTextBox.Text.Replace(copy_num.ToString(), ""), endless_word, !(bool)AttentionSpace.IsChecked);
                     if (copy_num > posible_words.Count || copy_num < 1)
                     {
                         return;
@@ -124,21 +127,24 @@ namespace WordlistSolver
 
             else
             {
-                if (WordInputTextBox.Text.Length < 3)
+
+                if ((WordInputTextBox.Text.Length < 3 && !endless_word) || (WordInputTextBox.Text.Length < 2))
                 {
+
                     LabelGrid.Children.Clear();
                     return;
                 }
+
 
                 List<string> posible_words;
 
                 if (copy_num == -1)
                 {
-                    posible_words = wc.wordlist(WordInputTextBox.Text, !(bool)AttentionSpace.IsChecked);
+                    posible_words = wc.wordlist(WordInputTextBox.Text, endless_word, !(bool)AttentionSpace.IsChecked);
                 }
                 else
                 {
-                    posible_words = wc.wordlist(WordInputTextBox.Text.Replace(copy_num.ToString(), ""), !(bool)AttentionSpace.IsChecked);
+                    posible_words = wc.wordlist(WordInputTextBox.Text.Replace(copy_num.ToString(), ""), endless_word, !(bool)AttentionSpace.IsChecked);
                     if (copy_num > posible_words.Count || copy_num < 1)
                     {
                         return;
@@ -296,7 +302,7 @@ namespace WordlistSolver
 
         public void ClickCopyButton(object sender, EventArgs e)
         {
-            string wordtocopy = ((Button)sender).Name.Replace("__", "-").Replace("_"," ");
+            string wordtocopy = ((Button)sender).Name.Replace("__", "-").Replace("_", " ");
             Clipboard.SetText(wordtocopy);
         }
     }

@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 public class list_compare
 {
@@ -28,8 +29,27 @@ public class list_compare
         return new_words;
     }
 
-    public List<string> wordlist(string request, bool allow_spaces = true)
+    public List<string> wordlist(string request, bool endless_word, bool allow_spaces = true)
     {
+
+
+        if (endless_word)
+        {
+            request = request.Replace(":", "").ToLower();
+
+            string[] words = WordList.words;
+            
+            List<string> res = new List<string>();
+            foreach (string word in words)
+            {
+                if (word.ToLower().StartsWith(request))
+                {
+                    res.Add(word);
+                }
+            }
+            return res;
+        }
+
         List<List<char>> word_list = get_wordlist_of_list();
         int length = request.Length;
         request = request.ToLower();
