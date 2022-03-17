@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Word List Solver.exe" version="1.0.0.11" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Word List Solver.exe" version="1.0.0.12" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="question-mark.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -72,22 +72,22 @@
       <dsig:DigestValue>aMFSOyRPm+OgtgTBkjdsA/O9nmOmr6Mcp2v7/lrkZS8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Word List Solver.dll" size="84480">
+  <file name="Word List Solver.dll" size="87040">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>STuMNWZFmQqZvA2Ev6DMflyPk4lHmq9RjknB3AwH27E=</dsig:DigestValue>
+      <dsig:DigestValue>IIzuap9bd1Pl0BRj5LIZun+67ER5hvYZwLGdqyPu2nM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Word List Solver.exe" size="159232">
+  <file name="Word List Solver.exe" size="159744">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>LCfmsmVvMTqF5qUs/hmUyeunXuiUklNFPlOn7DWT6Fg=</dsig:DigestValue>
+      <dsig:DigestValue>SKCzF2rVRs8vBp+vSoX3SOWbyVHRsBRud3isWE79wBo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Word List Solver.runtimeconfig.json" size="372">

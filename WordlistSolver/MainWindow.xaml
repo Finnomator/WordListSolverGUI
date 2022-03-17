@@ -23,5 +23,7 @@
         <ScrollViewer x:Name="Scroller" Panel.ZIndex="-1" VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" Margin="480,60,0,30" Width="390">
             <Grid x:Name="LabelGrid" HorizontalAlignment="Left" Margin="0,0,0,0" Width="390" Background="#FF6457A6" Panel.ZIndex="-1" ScrollViewer.CanContentScroll="True" TextElement.FontSize="16"/>
         </ScrollViewer>
+        <Label x:Name="EnterCooldownLabel" Content="Enter Cooldown:" HorizontalAlignment="Left" Margin="42,200,0,0" VerticalAlignment="Top" FontSize="16" Foreground="White" Padding="0,0,0,0" Background="#CC00FF00"/>
+        <Label x:Name="EnterCooldownLabeltime" Content="0ms" HorizontalAlignment="Left" Margin="163,200,0,0" VerticalAlignment="Top" FontSize="16" Foreground="White" Padding="0,0,0,0"/>
     </Grid>
 </Window>
