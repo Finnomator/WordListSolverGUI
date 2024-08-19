@@ -1383,6 +1383,7 @@ const List<String> wordlist = [
   "Sand Castle",
   "Sandbox",
   "Sandcastle",
+  "Sandwich",
   "Sandwiches",
   "Santa",
   "Santa Workshop",
