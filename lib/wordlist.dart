@@ -1779,6 +1779,7 @@ const List<String> wordlist = [
   "Venus Fly Trap",
   "Video Camera",
   "Video Game",
+  "Video games",
   "Viking",
   "Viking Ship",
   "Village",
