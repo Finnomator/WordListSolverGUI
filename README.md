@@ -3,7 +3,7 @@
 Guess the Build Solver is a cross-platform GUI tool designed to help users solve "Guess the Build" theme puzzles from the Hypixel Minecraft
 server by entering the hints provided in the game.
 
-![Screenshot.png](imgs/Screenshot.png)
+![Screenshot.png](imgs/Screenshot 2025-08-17 135529.png)
 
 ## Installation
 
