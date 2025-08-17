@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guess_the_build_solver/info_widget.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 class AboutPage extends StatelessWidget {
@@ -10,6 +11,7 @@ class AboutPage extends StatelessWidget {
       appBar: AppBar(title: const Text("About")),
       body: ListView(
         children: [
+          const InfoWidget(),
           ListTile(
             title: const Text("Report a bug"),
             leading: const Icon(Icons.bug_report),
@@ -25,7 +27,7 @@ class AboutPage extends StatelessWidget {
                 "https://github.com/Finnomator/WordListSolverGUI"),
           ),
           const ListTile(
-            title: Text("Finn Drünert 2024"),
+            title: Text("Finn Drünert 2025"),
             leading: Icon(Icons.copyright),
           )
         ],
