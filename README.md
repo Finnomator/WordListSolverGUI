@@ -3,20 +3,14 @@
 Guess the Build Solver is a cross-platform GUI tool designed to help users solve "Guess the Build" theme puzzles from the Hypixel Minecraft
 server by entering the hints provided in the game.
 
-![Screenshot.png](imgs/Screenshot.png)
+![Screenshot.png](imgs/Screenshot1.png)
 
 ## Installation
 
 ### Windows
 
-1. [Download the setup.exe](https://github.com/Finnomator/WordListSolverGUI/releases/download/V1.0.0.0_Windows_%26_Linux/guess_the_build_solver.exe)
+1. Download the setup file from the [latest release](https://github.com/Finnomator/WordListSolverGUI/releases/latest)
 2. Run the downloaded file to install the tool.
-
-### Linux
-
-1. [Download Linux.tar.gz](https://github.com/Finnomator/WordListSolverGUI/releases/download/V1.0.0.0_Windows_%26_Linux/Linux.tar.gz)
-2. Extract it
-3. Run `word_list_solver_gui`
 
 ### Other Platforms
 
@@ -28,7 +22,9 @@ server by entering the hints provided in the game.
 To use the Guess the Build Solver:
 
 1. Enter the hints from the game into the provided text boxes.
-2. The tool will automatically display words that match the hints in the "Matches" section.
+2. The tool will automatically display words that match the hints.
+
+You can select the dictionaries you want to use. The Hypixel words are the default.
 
 ### Methods of Copying a Match
 
