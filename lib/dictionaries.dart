@@ -58,7 +58,7 @@ class Dictionaries {
 
     if (containHypixelWords) {
       hypixelWords ??= (await rootBundle.loadString(_hypixelDictionaryPath)).split('\n');
-      hypixelWordsSet ??= hypixelWords!.toSet();
+      hypixelWordsSet ??= hypixelWords!.map((e) => e.toLowerCase()).toSet();
       allWords.addAll(hypixelWords!);
     }
 
@@ -89,6 +89,6 @@ class Dictionaries {
 
   static bool isHypixelWord(String word) {
     if (hypixelWordsSet == null) return false;
-    return hypixelWordsSet!.contains(word);
+    return hypixelWordsSet!.contains(word.toLowerCase());
   }
 }

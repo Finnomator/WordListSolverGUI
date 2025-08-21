@@ -203,7 +203,11 @@ class _MyHomePageState extends State<MyHomePage> {
         Clipboard.setData(ClipboardData(text: copyText));
       }
     } else {
-      matches = Matcher.findMatches(value).toList(growable: false);
+      Iterable<String> foundMatches = Matcher.findMatches(value);
+      if (AppStorage.everythingLowerCase) {
+        foundMatches = foundMatches.map((e) => e.toLowerCase());
+      }
+      matches = foundMatches.toList();
     }
 
     inputLength = value.length;

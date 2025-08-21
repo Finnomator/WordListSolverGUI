@@ -29,46 +29,38 @@ class _OptionsWidgetState extends State<OptionsWidget> {
             title: const Text("Auto Copy to Clipboard"),
             subtitle: const Text("If there is exactly one match, copy it to the clipboard automatically."),
             value: AppStorage.autoCopyToClipboard,
-            onChanged: (value) => AppStorage.autoCopyToClipboard = value,
+            onChanged: (value) => setState(() => AppStorage.autoCopyToClipboard = value),
           ),
           SwitchListTile(
             value: AppStorage.everythingLowerCase,
             onChanged: (value) => setState(() => AppStorage.everythingLowerCase = value),
             title: const Text("Everything Lowercase"),
-            subtitle: const Text("Convert all words to lowercase before matching."),
+            subtitle: const Text("Convert all words to lowercase."),
           ),
           const SizedBox(height: 8),
           const Text("Dictionaries", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
           const SizedBox(height: 8),
           CheckboxListTile(
             value: tempUseHypixelDictionary,
-            onChanged: (value) => setState(() {
-              tempUseHypixelDictionary = value ?? true;
-            }),
+            onChanged: (value) => setState(() => tempUseHypixelDictionary = value ?? true),
             title: const Text("Hypixel Dictionary"),
             subtitle: const Text("Use the Hypixel dictionary for word matching."),
           ),
           CheckboxListTile(
             value: tempUseCommonWordsDictionary,
-            onChanged: (value) => setState(() {
-              tempUseCommonWordsDictionary = value ?? true;
-            }),
+            onChanged: (value) => setState(() => tempUseCommonWordsDictionary = value ?? true),
             title: const Text("Common Words Dictionary"),
             subtitle: const Text("List of words in common with two or more dictionaries."),
           ),
           CheckboxListTile(
             value: tempUseSingleWordDictionary,
-            onChanged: (value) => setState(() {
-              tempUseSingleWordDictionary = value ?? true;
-            }),
+            onChanged: (value) => setState(() => tempUseSingleWordDictionary = value ?? true),
             title: const Text("Single Word Dictionary"),
             subtitle: const Text("List of single words excluding proper nouns, acronyms, compound words and phrases. This list does not exclude archaic words or significant varient spellings."),
           ),
           CheckboxListTile(
             value: tempUseCompoundWordDictionary,
-            onChanged: (value) => setState(() {
-              tempUseCompoundWordDictionary = value ?? true;
-            }),
+            onChanged: (value) => setState(() => tempUseCompoundWordDictionary = value ?? true),
             title: const Text("Compound Word Dictionary"),
             subtitle: const Text("List of phrases, proper nouns, acronyms and other entries which are not included in common word dictionary."),
           ),
